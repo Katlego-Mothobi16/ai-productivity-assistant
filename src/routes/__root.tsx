@@ -90,10 +90,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "Draft emails, plan your day, and chat with an AI workplace assistant — no accounts, nothing saved.",
+          "Session-only AI assistant for professional emails, task planning, and workplace Q&A. No sign-up, no data stored.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Workplace AI — Productivity Assistant" },
+      { name: "twitter:description", content: "Session-only AI assistant for professional emails, task planning, and workplace Q&A. No sign-up, no data stored." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4e56a995-7914-4f00-ba2c-98e2a3f31864/id-preview-1e0f3445--694f12f8-c65d-4f3c-a7de-dffb7995ea59.lovable.app-1784169416651.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4e56a995-7914-4f00-ba2c-98e2a3f31864/id-preview-1e0f3445--694f12f8-c65d-4f3c-a7de-dffb7995ea59.lovable.app-1784169416651.png" },
     ],
     links: [
       {
